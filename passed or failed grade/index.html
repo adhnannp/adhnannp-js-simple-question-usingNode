@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Passed Or Failed</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">EXAM RESULT</h1>
+    </div>
+    <div style="display: flex;  justify-content: center; margin-top: 4rem; ">
+        <span>
+            enter your total mark:
+        </span>
+        <input id="input" type="number" max="100" min="0">
+        <br>
+        <button id="btn" onclick="result()">Check Result</button>
+        <br>
+        <input id="result" type="text" readonly>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
